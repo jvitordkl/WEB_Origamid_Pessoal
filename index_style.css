@@ -9,10 +9,12 @@
 
 .Titulo_Card {
   color: green;
+  text-align: center;
 }
 
 .Subtitulo_Pagina {
   color: red;
+  text-align: center;
 }
 
 p a {
@@ -26,4 +28,32 @@ a {
 
 html {
   background-color: #d4b595;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 2px solid;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+#pokemonList {
+  background-color: rgba(0, 0, 0, 0);
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagem_card {
+  width: 60%;
+  margin-left: 20%;
+  color: rgba (255, 255, 255, 0);
+}
+img {
+  width: 100%;
 }
