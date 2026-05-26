@@ -1,0 +1,29 @@
+#Titulo_Pagina {
+  color: fuchsia;
+  background-color: purple;
+}
+
+#texto_Apresentacao {
+  color: darkblue;
+}
+
+.Titulo_Card {
+  color: green;
+}
+
+.Subtitulo_Pagina {
+  color: red;
+}
+
+p a {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+html {
+  background-color: #d4b595;
+}
