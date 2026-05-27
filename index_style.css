@@ -1,50 +1,59 @@
-#Titulo_Pagina {
-  color: fuchsia;
-  background-color: purple;
-}
-
-#texto_Apresentacao {
-  color: darkblue;
-}
-
-.Titulo_Card {
-  color: green;
-  text-align: center;
-}
-
-.Subtitulo_Pagina {
-  color: red;
-  text-align: center;
-}
-
-p a {
-  color: blue;
-}
-
-a {
-  text-decoration: none;
-  color: fuchsia;
-}
-
 html {
-  background-color: #d4b595;
+  background-color: #111;
+  margin-top: 0px;
+  @import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+  font-family: "Pokemon Solid", sans-serif;
 }
+
 body {
   padding: 0px;
   margin: 0px;
 }
 
+p a {
+  color: coral;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+img {
+  width: 100%;
+  box-shadow: 7px 7px 15px 2px black;
+  border-radius: 65px;
+}
+
+#pokemonList {
+  background-color: rgba(200, 200, 200, 0.2);
+  width: 96%;
+  margin: 2%;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.imgLogo {
+  width: 60%;
+  margin: 0%;
+  margin-left: 20%;
+  padding: 0px;
+}
+.Titulo_Card {
+  color: white;
+  text-align: center;
+}
+
 .card {
   width: 200px;
   height: 300px;
-  border: 2px solid;
+  border: 2px solid gold;
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
   border-radius: 5px;
 }
-#pokemonList {
-  background-color: rgba(0, 0, 0, 0);
+
+.organizacaoGrid {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,7 +62,4 @@ body {
   width: 60%;
   margin-left: 20%;
   color: rgba (255, 255, 255, 0);
-}
-img {
-  width: 100%;
 }
